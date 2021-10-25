@@ -2,11 +2,11 @@ package arrays_practice_prog;
 
 import java.util.Arrays;
 
-public class Sample1 {
+public class Flat_world {
 
 	public static void main(String[] args) 
 	{
-		/*	String s1="abcd@gmail.com";
+		String s1="abcd@gmail.com";
 		String []s2=s1.split("@");
 		System.out.println(s2[0]);
 		System.out.println("===========");
@@ -28,8 +28,8 @@ public class Sample1 {
 		int b[]= {1,2,3};
 		int sum=1;
 		int len=b.length;
-		System.out.println(len);*/
-	/*	System.out.println("=========");
+		System.out.println(len);
+		System.out.println("=========");
 		int arr[]= {0,1,1,0,1,0,0,1};
 		Arrays.sort(arr);
 		int abc[]=new int[8];
@@ -37,7 +37,9 @@ public class Sample1 {
 		{
 			abc[i]=arr[i];
 			System.out.print(abc[i]);
-		}*/
+		}
+		System.out.println();
+		System.out.println("----------------");
 		int q[]= {1,0,-4,2,-2,-1};
 		Arrays.sort(q);
 		int w[]=new int[q.length];

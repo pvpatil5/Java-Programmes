@@ -9,6 +9,10 @@ public class MAin
 		
 		int c= (int)b;
 		System.out.println(c);
+		
+		String s1="458";
+		int e= Integer.parseInt(s1);
+		System.out.println(e);
 	}
 
 

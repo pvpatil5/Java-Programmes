@@ -13,16 +13,15 @@ public class Min_2nd_Element {
 		int c=a[0];
 		for (int i = 0; i < a.length; i++) 
 		{
-			
+
 			if(a[i]<b)
 			{
 			b=a[i];	
 			}
-			if
 		}*/
 
-Arrays.sort(a);
-System.out.println(a[1]);
+		Arrays.sort(a);
+		System.out.println(a[1]);
 
 
 

@@ -11,11 +11,10 @@ public class OddEven_Swap
 			a=arr[i];
 			arr[i]=arr[i-1];
 			arr[i-1]=a;
-			
 		}
 		for (int j = 0; j < arr.length; j++)
 		{
-			System.out.println(arr[j]);
+			System.out.print(arr[j]+" ");
 		}
 	}
 }

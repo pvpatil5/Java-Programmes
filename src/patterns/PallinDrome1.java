@@ -4,18 +4,18 @@ public class PallinDrome1 {
 
 	String s= "abacbefe";
 	int count;
-	
+	char c1[]=s.toCharArray();
 
 	public static boolean ispallindrome(String s)
 	{
-		char c1[]=s.toCharArray();
+	//	char c1[]=s.toCharArray();
 		String s2="";
 		for (int i = c1.length-1; i >= 0; i--) 
 		{
 			s2=s2+c1[i];
 		}
 		System.out.println("Reversed String is="+s2);
-		Boolean b=s.equals(s1);
+		Boolean b=s.equals(s2);
 		return b;
 		/*if(s1.equals(s2)) 
 		{
@@ -29,7 +29,7 @@ public class PallinDrome1 {
 
 	public static void main(String[] args)
 	{
-		for (int i = 0; i <=c1.length ; i++) 
+		for (int i = 0; i , ; i++) 
 		{
 			s1.substring(0, 3);
 		}

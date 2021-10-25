@@ -4,7 +4,7 @@ public class Duplicate_Char_string
 {
 	public static void main(String[] args)
 	{
-		String s1= "character is important "; // convert to lower case
+		String s1= "character is important"; // convert to lower case
 
 		char c[]=s1.toCharArray();
 		int count;
@@ -17,10 +17,10 @@ public class Duplicate_Char_string
 				if(c[i]==(c[j])) 
 				{
 					count++;  
-					c[j] = '0';  
+					c[j] = '0';  //
 				}  
 			}  
-			if(count > 1 && c[i] != '0')  
+			if(count >= 1 && c[i] != '0')  
 				System.out.println(c[i]+" count is="+count );  
 		}
 	}
