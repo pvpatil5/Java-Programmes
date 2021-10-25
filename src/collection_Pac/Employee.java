@@ -76,7 +76,12 @@ public static Comparator<Employee> sortByname = new Comparator<Employee>()
 		return o1.getName().compareTo(o2.getName());
 	}
 
-	};};
+	};
+@Override
+public int compare(Employee o1, Employee o2) {
+	// TODO Auto-generated method stub
+	return 0;
+}};
 	//	public static Comparator<EmployeeData> sortByname = new Comparator<EmployeeData>() {
 	//		
 	//	
